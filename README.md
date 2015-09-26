@@ -1,2 +1,2 @@
-# A-Dark-Room
-small game
+# LittleRoom
+a small text game.
