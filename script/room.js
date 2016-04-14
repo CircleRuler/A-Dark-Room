@@ -792,7 +792,7 @@ var Room = {
 			var num = $SM.get('stores["'+k+'"]');
 			
 			if(typeof num != 'number' || isNaN(num)) {
-				// No idea how counts get corrupted, but I have reason to believe that they occassionally do.
+				// No idea how counts get corrupted, but I have reason to believe that they occasionally do.
 				// Build a little fence around it!
 				num = 0;
 				$SM.set('stores["'+k+'"]', 0);
